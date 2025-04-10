@@ -110,8 +110,8 @@ We welcome contributions from developers, educators, and domain experts! Here’
 
 1️⃣ Clone the repository:  
 ```bash
-git clone https://github.com/your-repo/skilling-platform.git
-cd skilling-platform
+git clone https://github.com/Shruti-lab/SkillingApp.git
+cd SkillingApp
 ```  
 
 2️⃣ Install dependencies:  
@@ -121,11 +121,15 @@ pip install -r requirements.txt
 ```  
 
 3️⃣ Set up environment variables:  
-- Copy `.env.example` to `.env` and configure API keys for LLMs and databases.  
+- Copy `.env.example` to `.env` and configure API keys for LLMs and databases.
+```bash
+cp .env.example .env
+```
 
 4️⃣ Run the app:  
 ```bash
 npm start
+python app.py
 ```  
 
 ---
